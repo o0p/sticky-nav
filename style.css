@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans');
 
 * {
   box-sizing: border-box;
@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'Open+Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #222;
   padding-bottom: 3.125rem;
 }
@@ -53,11 +53,17 @@ body {
 
 .hero p {
   font-size: 1.25rem;
-  letter-spacing: 1px;
+  letter-spacing: 0.0625rem;
 }
 
 .content h2,
 .content h3 {
   font-size: 150%;
-  margin: 10px 0;
+  margin: 1.25rem 0;
+}
+
+.content p {
+  color: #555;
+  line-height: 1.875rem;
+  letter-spacing: 0.0625rem;
 }
