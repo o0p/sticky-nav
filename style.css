@@ -43,7 +43,17 @@ body {
 
 .nav.active {
   background-color: #fff;
+  box-shadow: 0 0.125rem 0.625rem rgba(0, 0, 0, 0.3) ;
 }
+
+.nav.active a {
+  color: black;
+}
+
+.nav.active .container {
+  padding: 10px 0;
+}
+
 
 .nav ul {
   display: flex;
