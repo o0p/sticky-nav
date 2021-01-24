@@ -25,4 +25,11 @@ body {
   background-size: cover;
   background-position: bottom center;
   height: 100vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px;
 }
