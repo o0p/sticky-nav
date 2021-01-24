@@ -39,7 +39,10 @@ body {
   text-decoration: none;
   padding: 0.4375rem 0.9375rem;
   transition: all 0.3s ease-in-out;
+}
 
+.nav.active {
+  background-color: #fff;
 }
 
 .nav ul {
